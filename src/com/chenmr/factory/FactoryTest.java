@@ -5,7 +5,7 @@ import com.chenmr.factory.abstractFactory.CarFactory;
 import com.chenmr.factory.product.Car;
 
 /**
- * Created by Administrator on 2018/4/5/005.
+ * Created by chenmr on 2018/4/5/005.
  */
 public class FactoryTest {
 
