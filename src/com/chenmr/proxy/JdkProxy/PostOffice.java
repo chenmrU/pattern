@@ -24,10 +24,7 @@ public class PostOffice implements InvocationHandler{
     }
 
     public Object getProxy(){
-        return Proxy.newProxyInstance(
-                target.getClass().getClassLoader(),
-                target.getClass().getInterfaces(),
-                this);
+        return Proxy.newProxyInstance(target.getClass().getClassLoader(),target.getClass().getInterfaces(),this);
     }
 
 }
