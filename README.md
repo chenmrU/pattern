@@ -20,3 +20,5 @@
 * Cglib代理
 
 >策略模式[Strategy]
+
+>模板模式[Template]
