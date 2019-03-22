@@ -29,7 +29,7 @@ public class Event {
         return this;
     }
 
-    //触发
+    //触发的事件类型名称
     private String trigger;
 
     public Event(Object target, Method callback){
